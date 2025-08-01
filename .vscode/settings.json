@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/48aaa72d-f03a-44e4-bc2e-aaf30474cb3b/resourceGroups/pratica/providers/Microsoft.Web/sites/praticaipca",
+    "appService.deploySubpath": "."
+}
