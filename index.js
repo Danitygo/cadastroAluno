@@ -17,7 +17,7 @@ app.get('/legaliza/nome', (req, res)=>{
     res.json({listado: inscritos})
 })
 
-app.get('/legaliza/:sexo', (req, res)=>{
+app.get('/legaliza/sexo/:sexo', (req, res)=>{
     const sexo = req.query.sexo
 
     if (!sexo) {
@@ -26,6 +26,11 @@ app.get('/legaliza/:sexo', (req, res)=>{
     const generos = depross.mostreSexo(sexo)
 
     res.json({listado: generos})
+})
+
+app.get('/legaliza/turma/idade',(req, res)=>{
+    const turma = depross.idadeEntre()
+    res.json({turma: turma})
 })
 
 

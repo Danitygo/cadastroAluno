@@ -1,7 +1,7 @@
 const Module = require("node:module")
 
 const inscricao = [
-    {id: 1, nome: 'Ana Maria Soares', sexo: 'F', bairro: 'Sintra', idade: '20'},
+    {id: 1, nome: 'Ana Maria Soares', sexo: 'F', bairro: 'Sintra', idade: '14'},
     {id: 2, nome: 'Mario Gomes', sexo: 'M', bairro: 'Missira', idade: '60'},
     {id: 3, nome: 'Domingos Camala', sexo: 'M', bairro: 'Sintra', idade: '39'},
     {id: 4, nome: 'Fanta Djalo', sexo: 'F', bairro: 'Reno', idade: '20'},
